@@ -93,8 +93,7 @@ PRODUCT_PACKAGES += \
     libVendor_ti_omx \
     gps.sholes \
     sensors.sholes \
-    lights.sholes \
-    libaudiopolicy
+    lights.sholes
 
 # we have enough storage space to hold precise GC data
 PRODUCT_TAGS += dalvik.gc.type-precise
