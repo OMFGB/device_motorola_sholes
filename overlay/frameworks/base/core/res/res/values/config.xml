@@ -333,6 +333,4 @@
     <integer name="config_datause_notification_type">2</integer>
 
     <bool name="config_animateScreenLights">false</bool>
-
-    <bool name="config_rilNeedsNullPath">true</bool>
 </resources>
