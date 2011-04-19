@@ -254,7 +254,7 @@
          than the size of the config_autoBrightnessLevels array.
          This must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessLcdBacklightValues">
-        <item>8</item>
+        <item>12</item>
         <item>50</item>
         <item>70</item>
         <item>255</item>
