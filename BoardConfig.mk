@@ -59,6 +59,9 @@ BOARD_KERNEL_BASE := 0x10000000
 #libsurfaceflinger to avoid Draw Texture Extenstion
 BOARD_AVOID_DRAW_TEXTURE_EXTENSION := true
 
+# support old libaudiopolicy binaries
+BOARD_USES_FROYO_AUDIOPOLICY := true
+
 BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_BCM := true
 
