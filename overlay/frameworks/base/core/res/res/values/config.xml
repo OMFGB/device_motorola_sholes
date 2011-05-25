@@ -42,7 +42,7 @@
 
     <!-- The duration (in milliseconds) that the radio will scan for a signal
          when there's no network connection. If the scan doesn't timeout, use zero -->
-    <integer name="config_radioScanningTimeout">0</integer>
+    <integer name="config_radioScanningTimeout">900000</integer>
 
     <!-- XXXXX NOTE THE FOLLOWING RESOURCES USE THE WRONG NAMING CONVENTION.
          Please don't copy them, copy anything else. -->
@@ -295,7 +295,7 @@
          and should not be enabled for any others.  Hopefully in the future
          it will be removed when the lower-level touch driver generates better
          data. -->
-    <bool name="config_filterTouchEvents">false</bool>
+    <bool name="config_filterTouchEvents">true</bool>
 
     <!-- Enables special filtering code in the framework for raw touch events
          from the touch driver. This code exists for one particular device,
